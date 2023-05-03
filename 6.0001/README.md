@@ -4,11 +4,12 @@
 ## Self Attendance.  
 
 ### 2023-05-01
-[*] Read Chapter 1 and 2.1. 
-[*] Download Anaconda
-[*] Downlaod PyCharm
-[*] Download Spyder
+[*] Read Chapter 1 and 2.1.  
+[*] Download Anaconda  
+[*] Download PyCharm  
+[*] Download Spyder  
 
 ### 2023-05-02
 [*] View lecture.  
-[*] In-Class Questions and Video Solutions: Lecture 1
+[*] In-Class Questions and Video Solutions: Lecture 1  
+[*] Pset0
