@@ -43,3 +43,21 @@ def print_birthyear():
 
 
 print_birthyear()
+
+
+# 2.5 Finger Exercise
+
+
+def print_x_times():
+    num_x = int(input('How many times should I print the letter X? '))
+    if num_x < 0:
+        return print("Invalid input. Enter a positive input")
+    to_print = ''
+    num_iteration = 0
+    while num_iteration < num_x:
+        to_print += 'X'
+        num_iteration += 1
+    print(to_print)
+
+
+print_x_times()
