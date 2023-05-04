@@ -12,4 +12,7 @@
 ### 2023-05-02
 [*] View lecture.  
 [*] In-Class Questions and Video Solutions: Lecture 1  
-[*] Pset0
+[*] Pset0  
+
+### 2023-05-03
+[*] Read Chapter 2.2, 2.3, 2.4, 3.2
