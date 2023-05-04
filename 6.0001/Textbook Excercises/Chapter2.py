@@ -1,3 +1,7 @@
+import re  # regular expression
+import sys
+
+
 # 2.3 Finger Exercise
 # The book has not covered any loop yet. so I used plain if statements
 def print_largest_odd():
@@ -22,7 +26,6 @@ print_largest_odd()
 
 
 # 2.4.1 Finger Exercise
-import re # regular expression
 
 
 def print_birthyear():
@@ -61,3 +64,23 @@ def print_x_times():
 
 
 print_x_times()
+
+
+# 2.5 Finger Exercise 2
+
+
+def print_largest_odd_w_while():
+    largest_odd = -sys.maxsize - 1
+    num_iteration = 0
+    while num_iteration < 10:
+        user_input = int(input("Enter an integer "))
+        if user_input % 2 != 0:
+            largest_odd = max(largest_odd, user_input)
+        num_iteration += 1
+    if largest_odd == -sys.maxsize - 1:
+        return print("No odd integer found")
+    else:
+        return print("The largest odd integer out of 10 inputs is:", largest_odd)
+
+
+print_largest_odd_w_while()

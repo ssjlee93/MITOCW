@@ -16,3 +16,7 @@
 
 ### 2023-05-03
 [*] Read Chapter 2.2, 2.3, 2.4, 3.2
+
+### 2023-05-04
+[*] Read Chapter 2.5  
+> Because the lecture uses Second Edition of the textbook and I am using Third Edition, reading for Chapter 2 includes 2.5, 2.6, 2.7.  
