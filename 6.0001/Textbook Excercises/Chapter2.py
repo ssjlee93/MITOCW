@@ -22,9 +22,6 @@ def print_largest_odd():
         print(max(candidates))
 
 
-print_largest_odd()
-
-
 # 2.4.1 Finger Exercise
 
 
@@ -45,9 +42,6 @@ def print_birthyear():
         return print("Incorrect format", birthday)
 
 
-print_birthyear()
-
-
 # 2.5 Finger Exercise
 
 
@@ -61,9 +55,6 @@ def print_x_times():
         to_print += 'X'
         num_iteration += 1
     print(to_print)
-
-
-print_x_times()
 
 
 # 2.5 Finger Exercise 2
@@ -83,4 +74,24 @@ def print_largest_odd_w_while():
         return print("The largest odd integer out of 10 inputs is:", largest_odd)
 
 
-print_largest_odd_w_while()
+# 2.6 Finger Exercise
+
+
+def find_prime_numbers(limit):
+    primes = [2]
+    for i in range(3, limit):
+        for j in range(len(primes)):
+            if i % primes[j] == 0:
+                break
+            if j == len(primes)-1:
+                primes.append(i)
+    print(primes)
+
+
+# executions
+# print_largest_odd()
+# print_birthyear()
+# print_x_times()
+# print_largest_odd_w_while()
+find_prime_numbers(1000)
+
