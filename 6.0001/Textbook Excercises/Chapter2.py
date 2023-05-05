@@ -89,9 +89,9 @@ def find_prime_numbers(limit):
 
 
 # executions
-# print_largest_odd()
-# print_birthyear()
-# print_x_times()
-# print_largest_odd_w_while()
+print_largest_odd()
+print_birthyear()
+print_x_times()
+print_largest_odd_w_while()
 find_prime_numbers(1000)
 
