@@ -20,3 +20,8 @@
 ### 2023-05-04
 [*] Read Chapter 2.5  
 > Because the lecture uses Second Edition of the textbook and I am using Third Edition, reading for Chapter 2 includes 2.5, 2.6, 2.7.  
+
+### 2023-05-05
+[*] Watch lecture  
+[*] in class questions and video solutions  
+[] assignment  

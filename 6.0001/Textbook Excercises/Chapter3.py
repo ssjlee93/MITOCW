@@ -46,8 +46,6 @@ def square_root_modified(x):
 def breaking_eggs(x):
     if x < 0:
         return print("Invalid input")
-    bpoint = 0
-    print("bpoint", bpoint)
     epsilon = 0.01
     num_guesses = 0
     low = min(x, 0)
