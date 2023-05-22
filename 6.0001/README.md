@@ -25,3 +25,6 @@
 [*] Watch lecture  
 [*] in class questions and video solutions  
 [] assignment  
+
+### 2023-05-22
+[*] pset1
